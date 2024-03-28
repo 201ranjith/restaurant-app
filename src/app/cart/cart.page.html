@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Cart</ion-title>
+    <ion-buttons slot="end">
+      <ion-button routerLink="/">
+        <ion-icon slot="icon-only" name="home-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-item *ngFor="let item of cartItems">
+      <ion-thumbnail slot="start">
+        <img [src]="item.image">
+      </ion-thumbnail>
+      <ion-label>
+        <h2>{{ item.name }}</h2>
+        <p>Price: {{ item.price | currency }}</p>
+        <p>Quantity: {{ item.amount }}</p>
+      </ion-label>
+      <ion-button slot="end" (click)="removeFromCart(item)">-</ion-button>
+      <ion-button slot="end" (click)="addToCart(item)">+</ion-button>
+    </ion-item>
+  </ion-list>
+  
+  <ion-button expand="full" routerLink="/checkout">Checkout</ion-button>
+</ion-content>

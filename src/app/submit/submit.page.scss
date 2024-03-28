@@ -1,0 +1,42 @@
+.confirmation {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .outer-circle {
+        width: 200px;
+        height: 200px;
+      background: linear-gradient(45deg, #000850 0%, #000320 100%), radial-gradient(100% 225% at 100% 0%, #FF6928 0%, #000000 100%), linear-gradient(225deg, #FF7A00 0%, #000000 100%), linear-gradient(135deg, #CDFFEB 10%, #CDFFEB 35%, #009F9D 35%, #009F9D 60%, #07456F 60%, #07456F 67%, #0F0A3C 67%, #0F0A3C 100%);
+        background-blend-mode: screen, overlay, hard-light, normal;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .inner-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(252,111,69,0.726015406162465) 100%);
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            img {
+                max-width: 30%;
+            }
+        }
+    }
+}
+ion-footer {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .main-button::after {
+        box-shadow: none !important;
+    }
+}

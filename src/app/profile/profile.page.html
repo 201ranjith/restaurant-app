@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Profile</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-text-center">
+  <ion-card class="profile-card">
+    <ion-card-header>
+      <ion-card-title class="card-title">{{ user.name }}</ion-card-title>
+      <p>{{user.email}}</p>
+    </ion-card-header>
+    <ion-card-content>
+      <ion-avatar class="profile-picture">
+        <img src="{{ user.profilePictureUrl }}" alt="Profile Picture">
+      </ion-avatar>
+      <p class="bio">{{ user.bio }}</p>
+      <ion-button href="{{ user.socialMedia.linkedin }}" target="_blank" expand="full" color="primary">
+        LinkedIn
+      </ion-button>
+      <ion-button href="{{ user.socialMedia.github }}" target="_blank" expand="full" color="secondary">
+        GitHub
+      </ion-button>
+      <ion-button href="{{ user.socialMedia.instagram }}" target="_blank" expand="full" color="tertiary">
+        Instagram
+      </ion-button>
+      <!-- Add other user information here -->
+    </ion-card-content>
+  </ion-card>
+</ion-content>
