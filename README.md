@@ -46,7 +46,8 @@ ionic serve
 
 ## Screenshots
 
-![8](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/3834e411-7f88-4c18-ad38-6aaef30a3dca) ![6](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/21a3dfd7-8e1a-44e5-8812-a484028c9441) ![5](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/6c9c8045-13b2-4ed6-b24a-43b9f6cfa4c4) ![7](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/92eb8fc1-7685-4ce1-956e-55148cc6596d) ![2](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/30d355eb-c2a8-4733-a673-24a312d7f5ae) ![4](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/645dde38-bc67-4e1a-a7d5-e167b13537c7) ![3](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/8be6a0b2-0112-4d53-a278-1f5bcde5fe63) ![1](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/8ea26a8c-a4f1-40a1-bcb4-d3751bf75a96)
+![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/6927aafd-3be9-4db4-a39c-6d0a45b3306f) ![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/4eee07b5-c203-445c-8b20-7c988419fdd0) ![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/da0c7e32-7215-405b-b075-9becc657abff) ![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/7fa3c74a-ac36-4e2b-b788-dcad46821055) ![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/076cd051-3290-4f7a-ac20-7540499c8824)
+![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/549862f6-3898-4be8-b83c-3167e4171c88) ![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/19050cf2-f464-449b-9b20-a665307d0d99) ![image](https://github.com/201ranjith/restaurant-ionic-app/assets/128779350/76324faf-bdce-4732-82d5-91f35efc3ec5)
 
 ## Deployment
 
